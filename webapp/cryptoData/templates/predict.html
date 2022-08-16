@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html>
+  <head>
+<title>Forecast</title>
+    <style>
+      body{
+      background-image: url('http://hyper-admin-templates.multipurposethemes.com/images/bg-2.jpg');
+      }
+      .center {
+				display: flex;
+  				justify-content: center;
+  				align-items: center;
+ 				height: 400px;
+      }
+      .pred {
+                background-color: black;
+                color: white;
+      }
+    </style>
+  </head>
+<body>
+  <center><h1>Prediction results</h1></center><br/>
+<div class="center">
+  <img src={{plot_url}}>
+</div>
+<div class ="pred"> predicted closing price: {{prediction}}
+</div>
+<div class ="pred"> You can {{prediction1}}
+</div>
+</body>
+</html>
