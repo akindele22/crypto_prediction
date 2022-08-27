@@ -1,5 +1,5 @@
 
-A scalable flask webapp to forecast cryptocurrency prices. The forecasting model is built using stacked LSTM for one-to-one sequence 
+## A scalable flask webapp to forecast cryptocurrency prices. The forecasting model is built using stacked LSTM for one-to-one sequence 
 of the timeseries.
 
 ## Requirements
