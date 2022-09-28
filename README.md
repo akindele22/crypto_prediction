@@ -23,7 +23,7 @@
 - ```
 - ## Snapshots
 - ### Realtime deployment
-- * add/replace trained models in webapp/cryptoviz/models/
+- * add/replace trained models in webapp/cryptodata/models/
 - * use API intergration for extracting prices until current timestamp to predict for future(binance lets you extract prices until 3 hours ago...best case)
 - * automate the prediction for continous forecast
 
